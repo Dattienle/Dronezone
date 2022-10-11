@@ -13,9 +13,11 @@
         .button-bestdrones__text,
         .button-speed__text,
         .button-longrange__text {
-            color: red;
+            background: linear-gradient(to right, red, rgba(255, 124, 1, 0.945));
             font-weight: 700;
             font-size: 30px;
+            -webkit-background-clip: text;
+            color: transparent;
         }
     
     }
