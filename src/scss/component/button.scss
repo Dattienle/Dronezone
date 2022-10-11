@@ -1,0 +1,37 @@
+.button {
+    background-color: #fff;
+    font-size: 18px;
+    .button-element {
+        padding-top: 134px;
+        display: flex;
+        // align-items: ;
+        justify-content: space-between;
+        text-align: center;
+        
+    
+        .button-formair__text,
+        .button-bestdrones__text,
+        .button-speed__text,
+        .button-longrange__text {
+            color: red;
+            font-weight: 700;
+            font-size: 30px;
+        }
+    
+    }
+
+
+    .button-askfor {
+        display: flex;
+        justify-content: center;
+        padding: 84px;
+    }
+    .button-askfor .text {
+        background-color: #264699;
+        border-radius: 60px;
+        display: inline-block;
+        padding: 15px 58px;
+        color: #fff;
+    }
+}
+
