@@ -1,14 +1,14 @@
 .container{  
     // border: 2px solid red; 
     max-width: 1560px !important;   
-    .view1{
-        // border: 2px solid blue;
-        height: 100vh;
-    }
-    .view2{
-        // border: 2px solid green;
-        height: 100vh;
-    }
+    // .view1{
+    //     // border: 2px solid blue;
+    //     height: 100vh;
+    // }
+    // .view2{
+    //     // border: 2px solid green;
+    //     height: 100vh;
+    // }
     .sign-up-container{
         // border: 2px solid orange;
         height: 60vh;
@@ -25,7 +25,7 @@
                 // border: 2px solid saddlebrown;
                 margin: 3rem;
                 text-align: center;
-                .email.content{
+                .email-content{
                     border: 2px solid #fefefe42;
                     padding: 1rem;
                     font-size: 1.6rem;
@@ -85,7 +85,7 @@
             // border: 2px solid saddlebrown;
             margin: 3rem;
             text-align: center;
-            .email.content{
+            .email-content{
                 border: 2px solid #fefefe42;
                 padding: 1rem;
                 font-size: 1.6rem;
@@ -115,37 +115,34 @@
     }
 }
 @media (max-width: 875px) {  
-    .sign-up-container{
-        background-size: contain;
-        .sign-up-content{
-            text-align: center;
-            padding: 7rem;
-            .email-container{
-                font-size: 1.3rem;
-                color: white;
-                border-radius: 20px;     
-                width: 17%;
-                .send-content{
-                    padding: 1rem 3.4rem;
-                }
-            }
-        }
+    .email-content{
+        width: 55% !important;
+        font-size: 1.3rem !important;
+    }
+    .send-content{
+        // display: none;
+        font-size: 1.6rem !important;
+        padding: 1rem 2.8rem !important;
+    }
+    .map-container{
+        background-size: cover !important;
     }
 }
 @media (max-width: 690px) {  
-    .sign-up-container{
-        background-size: contain;
-        .sign-up-content{
-            padding: 5rem;
-            .email-container{
-                font-size: 1.3rem;
-                color: white;
-                border-radius: 20px;     
-                width: 17%;
-                .send-content{
-                    padding: 1rem 3.4rem;
-                }
-            }
-        }
+    .email-content{
+        width: 70% !important;
+        font-size: 1.3rem !important;
+    }
+    .send-content{
+        // display: none;
+        font-size: 1.3rem !important;
+        padding: 1rem 2rem !important;
+    }
+    .map-container{
+        height: 50vh !important;
+        background-size: contain !important;
+    }
+    .end-container{
+        height: 20vh !important;
     }
 }
