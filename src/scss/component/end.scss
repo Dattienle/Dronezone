@@ -1,0 +1,151 @@
+.container{  
+    // border: 2px solid red; 
+    max-width: 1560px !important;   
+    .view1{
+        // border: 2px solid blue;
+        height: 100vh;
+    }
+    .view2{
+        // border: 2px solid green;
+        height: 100vh;
+    }
+    .sign-up-container{
+        // border: 2px solid orange;
+        height: 60vh;
+        background-size: cover;
+        .sign-up-content{
+            height: 100%;
+            padding: 15rem;
+            text-align: center;
+            .content1{
+                font-size: 2.8rem;
+                color: #fefefe;
+            }
+            .email-container{
+                // border: 2px solid saddlebrown;
+                margin: 3rem;
+                text-align: center;
+                .email.content{
+                    border: 2px solid #fefefe42;
+                    padding: 1rem;
+                    font-size: 1.6rem;
+                    color: white;
+                    border-radius: 25px;     
+                    width: 20%;
+                    background-color: #fefefe39;
+                    display: inline-block;
+
+                    text-align: left;
+                    position: relative;
+
+                    .send-content{
+                        padding: 1rem 3.6rem;
+                        border: 1px;
+                        color:rgb(222, 34, 34);
+                        background-color: #fefefe;
+                        border-radius: 20px;
+                        font-size: 1.6rem;
+                        position:absolute; 
+                        right: 0;
+                        top: 0;
+                    }                            
+    
+                }
+            }
+        }
+    }
+    .map-container{
+        // border: 2px solid pink;
+        height: 75vh;
+        
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .end-container{
+        // border: 2px solid purple;
+        height: 45vh;
+        font-size: 1.6rem;
+        .end-content{
+            margin: 6rem;
+            color:gainsboro;
+            text-align: center;
+        }
+    }
+}
+@media (max-width: 1320px) {  
+    .sign-up-content{
+        height: 100%;
+        padding: 12rem;
+        text-align: center;
+        .content1{
+            font-size: 2.6rem;
+            color: #fefefe;
+        }
+        .email-container{
+            // border: 2px solid saddlebrown;
+            margin: 3rem;
+            text-align: center;
+            .email.content{
+                border: 2px solid #fefefe42;
+                padding: 1rem;
+                font-size: 1.6rem;
+                color: white;
+                border-radius: 25px;     
+                width: 20%;
+                background-color: #fefefe39;
+                display: inline-block;
+
+                text-align: left;
+                position: relative;
+
+                .send-content{
+                    padding: 1rem 3srem;
+                    border: 1px;
+                    color:rgb(222, 34, 34);
+                    background-color: #fefefe;
+                    border-radius: 20px;
+                    font-size: 1.3rem;
+                    position:absolute; 
+                    right: 0;
+                    top: 0;
+                }                            
+
+            }
+        }
+    }
+}
+@media (max-width: 875px) {  
+    .sign-up-container{
+        background-size: contain;
+        .sign-up-content{
+            text-align: center;
+            padding: 7rem;
+            .email-container{
+                font-size: 1.3rem;
+                color: white;
+                border-radius: 20px;     
+                width: 17%;
+                .send-content{
+                    padding: 1rem 3.4rem;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 690px) {  
+    .sign-up-container{
+        background-size: contain;
+        .sign-up-content{
+            padding: 5rem;
+            .email-container{
+                font-size: 1.3rem;
+                color: white;
+                border-radius: 20px;     
+                width: 17%;
+                .send-content{
+                    padding: 1rem 3.4rem;
+                }
+            }
+        }
+    }
+}
